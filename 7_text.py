@@ -111,13 +111,13 @@ while running:
 
     screen.blit(background, (0, 0))  # 배경 그리기
     screen.blit(character, (character_x_pos, character_y_pos))  # 캐릭터 그리기
-    screen.blit(enemy, (enemy_x_pos, enemy_y_pos)) # 적 그리기
+    screen.blit(enemy, (enemy_x_pos, enemy_y_pos))  # 적 그리기
 
     # 타이머 집어 넣기
     # 경과 시간 계산
     elapsed_time = (pygame.time.get_ticks() - start_ticks) / 1000  # 경과 시간(ms)을 1000으로 나누어서 초(s) 단위로 표시
 
-    timer = game_font.render(str(int(total_time - elapsed_time)), True, (255,255,255))  # 출력할 글자, True, 글자 색상
+    timer = game_font.render(str(int(total_time - elapsed_time)), True, (255, 255, 255))  # 출력할 글자, True, 글자 색상
 
     screen.blit(timer, (10, 10))
 
