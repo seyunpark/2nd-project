@@ -20,17 +20,17 @@ clock = pygame.time.Clock()
 # 1. 사용자 게임 초기화 (배경 화면, 게임 이미지, 좌표, 속도, 폰트 등)
 
 # 배경 화면
-background = pygame.image.load("D:/github/2nd-project/first_game_background.png")
+background = pygame.image.load("D:/github/2nd-project/first_game/first_game_background.png")
 
 # 게임 이미지
-character = pygame.image.load("D:/github/2nd-project/first_game_character.png")
+character = pygame.image.load("D:/github/2nd-project/first_game/ssugi.png")
 character_size = character.get_rect().size  # 이미지 크기를 구해옴
 character_width = character_size[0]  # 캐릭터의 가로 크기
 character_height = character_size[1]  # 캐릭터의 세로 크기
 character_x_pos = (screen_width / 2) - (character_width / 2)  # 화면 가로의 절반 크기에 해당하는 곳에 위치 (가로위치)
 character_y_pos = screen_height - character_height  # 화면 세로 크기 가장 아래에 해당하는 곳에 위치 (세로위치)
 
-enemy = pygame.image.load("D:/github/2nd-project/first_game_enemy.png")
+enemy = pygame.image.load("D:/github/2nd-project/first_game/ddong.png")
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
@@ -80,7 +80,7 @@ while running:
     character_x_pos += to_x * dt
     # character_y_pos += to_y * dt
 
-    enemy_y_pos += 5
+    enemy_y_pos += 10
     if enemy_y_pos == 680:
         enemy_rand = random.randrange(0, 410)
         enemy_y_pos = 0
@@ -120,7 +120,7 @@ while running:
     # 타이머
     elapsed_time = (pygame.time.get_ticks() - start_ticks) / 1000  # 경과 시간(ms)을 1000으로 나누어서 초(s) 단위로 표시
 
-    timer = game_font.render(str(int(total_time - elapsed_time)), True, (255, 255, 255))  # 출력할 글자, True, 글자 색상
+    timer = game_font.render(str(int(total_time - elapsed_time)), True, (0, 0, 0))  # 출력할 글자, True, 글자 색상
 
     screen.blit(timer, (10, 10))
 

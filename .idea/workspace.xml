@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="53398bd8-ea3c-4bbb-9a53-c4547a04862c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemy.png" beforeDir="false" afterPath="$PROJECT_DIR$/enemy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/character.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enemy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_game_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_game_character.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_game_enemy.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
-  <component name="RunManager" selected="Python.first_game">
+  <component name="RunManager" selected="Python.6_gameover">
     <configuration name="1_create_frame" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="2nd-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_keyboard_event" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_ball_movement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2nd-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_keyboard_event.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_game/3_ball_movement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_frame_per_second" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4_coollision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2nd-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_frame_per_second.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_game/4_coollision.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6_coollision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5_ball_division" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2nd-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_coollision.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_game/5_ball_division.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6_gameover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2nd-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_game/6_gameover.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2nd-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_game/images" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_game/images/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.first_game" />
-        <item itemvalue="Python.7_text" />
-        <item itemvalue="Python.6_coollision" />
-        <item itemvalue="Python.5_frame_per_second" />
-        <item itemvalue="Python.4_keyboard_event" />
+        <item itemvalue="Python.6_gameover" />
+        <item itemvalue="Python.5_ball_division" />
+        <item itemvalue="Python.4_coollision" />
+        <item itemvalue="Python.3_ball_movement" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -213,22 +218,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1038" y="483" key="FileChooserDialogImpl/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594704870925" />
-    <state width="2043" height="324" key="GridCell.Tab.0.bottom" timestamp="1594804620874">
+    <state width="2043" height="324" key="GridCell.Tab.0.bottom" timestamp="1594877749208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2043" height="324" key="GridCell.Tab.0.bottom/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594804620874" />
-    <state width="2043" height="324" key="GridCell.Tab.0.center" timestamp="1594804620874">
+    <state width="2043" height="324" key="GridCell.Tab.0.bottom/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594877749208" />
+    <state width="2043" height="324" key="GridCell.Tab.0.center" timestamp="1594877749208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2043" height="324" key="GridCell.Tab.0.center/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594804620874" />
-    <state width="2043" height="324" key="GridCell.Tab.0.left" timestamp="1594804620874">
+    <state width="2043" height="324" key="GridCell.Tab.0.center/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594877749208" />
+    <state width="2043" height="324" key="GridCell.Tab.0.left" timestamp="1594877749208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2043" height="324" key="GridCell.Tab.0.left/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594804620874" />
-    <state width="2043" height="324" key="GridCell.Tab.0.right" timestamp="1594804620874">
+    <state width="2043" height="324" key="GridCell.Tab.0.left/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594877749208" />
+    <state width="2043" height="324" key="GridCell.Tab.0.right" timestamp="1594877749208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2043" height="324" key="GridCell.Tab.0.right/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594804620874" />
+    <state width="2043" height="324" key="GridCell.Tab.0.right/0.0.2560.1400/0.-768.1366.728@0.0.2560.1400" timestamp="1594877749208" />
     <state x="760" y="373" key="SettingsEditor" timestamp="1594705624318">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
